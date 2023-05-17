@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { requireNativeComponent, Image, StyleSheet, View, ViewPropTypes } from 'react-native'
+import { requireNativeComponent, Image, StyleSheet } from 'react-native'
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 export default class PhotoView extends React.PureComponent {
 
